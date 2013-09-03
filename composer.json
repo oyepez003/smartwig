@@ -7,6 +7,10 @@
         "psr-0": { "": "lib/" }
     },
     "require": {
+        "twig/twig": "~1.0",
+		"yepsua/jquery4php": "<1.0.*
+    },
+	"suggest": {
         "twig/extensions": "1.0.*"
     }
 }
