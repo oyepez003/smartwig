@@ -1,6 +1,6 @@
 <?php
 
-namespace Yepsua\SmarTwigBundle\Util;
+namespace Yepsua\SmarTwig\Util;
 
 class HTMLUtil {
     
