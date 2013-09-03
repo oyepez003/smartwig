@@ -1,6 +1,6 @@
 <?php
 
-namespace Yepsua\SmarTwigBundle\Twig\Extension;
+namespace Yepsua\SmarTwig\Twig\Extension;
 
 use \YsJsFunction;
 
