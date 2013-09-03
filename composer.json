@@ -1,0 +1,12 @@
+{
+    "name": "yepsua/smartwig",
+    "license": "MIT",
+    "type": "library",
+    "description": "Ultimate Components Extension for Twig.",
+    "autoload": {
+        "psr-0": { "": "lib/" }
+    },
+    "require": {
+        "twig/extensions": "1.0.*",
+    }
+}
