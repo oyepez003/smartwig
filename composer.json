@@ -11,6 +11,8 @@
 		"yepsua/jquery4php": "1.0.*"
     },
 	"suggest": {
-        "twig/extensions": "1.0.*"
+        "twig/extensions": "1.0.*",
+		"symfony/dependency-injection": "",
+		"symfony/config": ""
     }
 }
