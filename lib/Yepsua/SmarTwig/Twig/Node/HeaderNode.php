@@ -24,13 +24,11 @@ class HeaderNode extends SimpleNode {
         $this->compileHtmlProperties($compiler);
         $this->buildId();
         $this->compileWidgetContents($compiler);
-        $this->compileEndWidget($compiler);
       $this->compileIteratorEndSintax($compiler, $this->isValidateEmpty());
     }else{
       $this->compileInitWidget($compiler);
       $this->compileHtmlProperties($compiler);
       $this->compileWidgetContents($compiler);
-      $this->compileEndWidget($compiler);
     }    
   }
   
