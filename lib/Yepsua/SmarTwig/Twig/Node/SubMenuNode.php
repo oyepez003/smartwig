@@ -36,7 +36,14 @@ class SubMenuNode extends SimpleNode {
   }
   
   public function compileInitWidget(Twig_Compiler $compiler){
-    $compiler->write(sprintf('echo %s->initWidget(null,null,"li");',$this->getVarName()));
+    if($this->getNode('values')->hasNode('menuAttrs')){
+        $compiler->write(sprintf('echo %s->initWidget(null,',$this->getVarName()));
+        $compiler->subcompile($this->getNode('values')->getNode('menuAttrs'));
+        $compiler->write(',"li");');
+    }else{
+        $compiler->write(sprintf('echo %s->initWidget(null,null,"li");',$this->getVarName()));
+    }
+    
     $compiler->raw("\n");
     $compiler->write(sprintf('echo %s->initWidget(',$this->getVarName()));
     $this->compileWidgetId($compiler);
