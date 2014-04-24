@@ -3,6 +3,7 @@
     "license": "MIT",
     "type": "library",
     "description": "Ultimate Components Extension for Twig.",
+    "homepage": "http://smartwig.yepsua.com",
     "autoload": {
         "psr-0": { "": "lib/" }
     },
