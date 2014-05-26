@@ -11,7 +11,6 @@
 
 namespace Yepsua\SmarTwig\Twig\Node;
 
-use \Twig_Compiler;
 
 /**
  * 

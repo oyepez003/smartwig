@@ -45,6 +45,7 @@ class UICoreExtension extends UIWidgetExtension {
         new \Yepsua\SmarTwig\Twig\TokenParser\EffectTokenParser(),
         new \Yepsua\SmarTwig\Twig\TokenParser\ResizableTokenParser(),
         new \Yepsua\SmarTwig\Twig\TokenParser\VideoTokenParser(),
+        new \Yepsua\SmarTwig\Twig\TokenParser\RelatedSelectsTokenParser(),
     );
   }
 
