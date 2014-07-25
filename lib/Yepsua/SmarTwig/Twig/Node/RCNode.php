@@ -36,10 +36,26 @@ class RCNode extends SimpleNode {
     }else{
        $compiler->write('null');
     }
+    $compiler->write(',');
     if($this->getNode('values')->hasNode('update')){
-      $compiler->write(',');
       $compiler->subcompile($this->getNode('values')->getNode('update'));
       $this->removeAttribute('update');
+    }else{
+       $compiler->write('null');
+    }
+    $compiler->write(',');
+    if($this->getNode('values')->hasNode('preUpdate')){
+      $compiler->subcompile($this->getNode('values')->getNode('preUpdate'));
+      $this->removeAttribute('preUpdate');
+    }else{
+       $compiler->write("''");
+    }
+    $compiler->write(',');
+    if($this->getNode('values')->hasNode('postUpdate')){
+      $compiler->subcompile($this->getNode('values')->getNode('postUpdate'));
+      $this->removeAttribute('postUpdate');
+    }else{
+       $compiler->write("''");
     }
     $compiler->raw(')->setEmbebedFunction(true)');
   }

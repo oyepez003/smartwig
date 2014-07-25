@@ -45,6 +45,8 @@ class SmarTwigExtension {
 		"ui.tooltip"  => "YsUITooltip",
 		"ui.draggable"  => "YsUIDraggable",
 		"ui.droppable"  => "YsUIDroppable",
+                "ui.sortable"  => "YsUISortable",
+                "ui.selectable"  => "YsUISelectable",
 		"ui.resizable"  => "YsUIResizable",
 		"ui.effect"  => "YsUIEffect",
 		"ui.video"  => "YsUIVideo"

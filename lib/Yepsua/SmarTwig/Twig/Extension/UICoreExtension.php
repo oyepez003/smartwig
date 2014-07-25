@@ -42,6 +42,8 @@ class UICoreExtension extends UIWidgetExtension {
         new \Yepsua\SmarTwig\Twig\TokenParser\RCTokenParser(),
         new \Yepsua\SmarTwig\Twig\TokenParser\DraggableTokenParser(),
         new \Yepsua\SmarTwig\Twig\TokenParser\DroppableTokenParser(),
+        new \Yepsua\SmarTwig\Twig\TokenParser\SortableTokenParser(),
+        new \Yepsua\SmarTwig\Twig\TokenParser\SelectableTokenParser(),
         new \Yepsua\SmarTwig\Twig\TokenParser\EffectTokenParser(),
         new \Yepsua\SmarTwig\Twig\TokenParser\ResizableTokenParser(),
         new \Yepsua\SmarTwig\Twig\TokenParser\VideoTokenParser(),
