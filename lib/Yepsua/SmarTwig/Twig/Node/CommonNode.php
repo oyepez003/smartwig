@@ -373,7 +373,7 @@ class CommonNode extends Twig_Node {
       'confirmation' => array('method' => 'confirmation'),  
       'condition' => array('method' => 'condition'),
       'interval' => array('method' => 'setInterval'),
-      'options' => array('method' => 'setOptions'),
+      'options' => array('method' => 'addOptions'),
     );
   }
   
