@@ -9,7 +9,7 @@
     },
     "require": {
         "twig/twig": "~1.0",
-        "yepsua/jQuery4PHP": "1.7.x-dev",
+        "yepsua/jQuery4PHP": "1.7.x-dev"
     },
 	"suggest": {
         "twig/extensions": "1.0.*",
