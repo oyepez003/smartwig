@@ -4,7 +4,7 @@ Ultimate Components Extension for Twig.
 
 You can use Twig and SmarTwig and any PHP Project.
 
-Instalation
+Installation
 ===========
 
 You can install the SmarTwig in 2 different ways:
