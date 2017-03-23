@@ -356,6 +356,6 @@ If you are using Sf2 Framework we recommend the [SmarTwigBundle](https://github.
 
 Enjoy
 
-[Showcase](http://smartwig.yepsua.com/web/)
+[Showcase](http://smartwig-yepsua.rhcloud.com/)
 [Twig](http://www.twig-project.org/)
 [jQuery4PHP](http://jquery4php.sourceforge.net/)
